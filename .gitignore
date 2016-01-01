@@ -1,4 +1,5 @@
 *.log
+local.properties
 .DS_Store
 .gradle
 .classpath
