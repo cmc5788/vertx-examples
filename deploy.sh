@@ -4,4 +4,4 @@ curdir=${PWD##*/}
 cd build/libs
 kill $(pgrep -f $curdir)
 sleep 5
-exec -a $curdir java -jar $(ls) &
+exec -a $curdir java -jar $(ls | grep jar) &
